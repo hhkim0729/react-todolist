@@ -39,11 +39,13 @@ const Todo = memo(
 
     const onBlurInput = () => {
       setIsUpdate(false);
+      setValue(todo);
     };
 
     const onKeyUpInput = (e) => {
       if (e.key === 'Escape') {
         setIsUpdate(false);
+        setValue(todo);
       }
     };
 
