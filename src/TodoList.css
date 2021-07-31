@@ -1,0 +1,48 @@
+.box {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todolist-box {
+  width: 50%;
+  border: 2px solid blanchedalmond;
+  text-align: center;
+  background-color: rgba(250, 240, 230, 0.2);
+  padding: 2vh;
+}
+
+.todolist-box h1 {
+  font-size: 5vh;
+  font-weight: 300;
+  color: lightsalmon;
+  margin: 0 0 2vh 0;
+}
+
+.todolist-box ul {
+  padding: 0;
+  margin-bottom: 1vh;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: linen;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button:hover {
+  cursor: pointer;
+}

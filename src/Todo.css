@@ -1,0 +1,47 @@
+.list {
+  line-height: 3vh;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  text-align: left;
+  list-style: none;
+  font-size: 2vh;
+  border: 1px solid rgba(250, 240, 230, 0.5);
+  background-color: rgba(250, 240, 230, 0.425);
+  padding-left: 1vh;
+  text-decoration: antiquewhite;
+  color: slategray;
+}
+
+.list .check {
+  cursor: pointer;
+  align-self: center;
+}
+
+.list .todo {
+  overflow-wrap: break-word;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.list button {
+  background-color: transparent;
+}
+
+.update-form input {
+  background-color: transparent;
+  border: none;
+  font-size: 2vh;
+  padding: 0;
+}
+
+.list button {
+  color: linen;
+  font-size: 1vh;
+  width: 2vh;
+  height: 2vh;
+  padding: 0;
+  justify-self: center;
+  align-self: center;
+}

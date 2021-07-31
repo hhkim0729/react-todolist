@@ -1,0 +1,23 @@
+.add-form {
+  margin-bottom: 3vh;
+}
+
+.add-form input {
+  font-size: 3vh;
+  width: 50%;
+  border-bottom: 3px solid rgba(250, 240, 230, 0.5);
+  margin-right: 1vh;
+}
+
+.add-form button {
+  background-color: blanchedalmond;
+  color: lightslategray;
+  height: 2.5vh;
+  font-size: 1.5vh;
+  line-height: 2vh;
+}
+
+.add-form button:hover {
+  color: blanchedalmond;
+  background-color: lightslategray;
+}
