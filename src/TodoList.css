@@ -25,6 +25,22 @@
 .todolist-box ul {
   padding: 0;
   margin-bottom: 1vh;
+  max-height: 50vh;
+  overflow-y: scroll;
+}
+
+.todolist-box ul::-webkit-scrollbar {
+  width: 6px;
+}
+
+.todolist-box ul::-webkit-scrollbar-thumb {
+  background-color: rgba(250, 240, 230, 0.7);
+  border-radius: 2px;
+}
+
+.todolist-box ul::-webkit-scrollbar-track {
+  background-color: lightslategray;
+  border-radius: 2px;
 }
 
 input {
