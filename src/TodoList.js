@@ -29,12 +29,11 @@ const TodoList = () => {
 
   const addTodo = useCallback(
     (todo) => (e) => {
-      console.log('add');
       e.preventDefault();
       if (todo) {
         setTodoList((prevTodoList) => [
           ...prevTodoList,
-          { id: id, todo: todo, isChecked: false },
+          { id, todo, isChecked: false },
         ]);
         setId((prevId) => prevId + 1);
       }
@@ -47,8 +46,8 @@ const TodoList = () => {
       const index = todoList.findIndex((todoInfo) => todoInfo.id === id);
       const newTodoList = [...todoList];
       newTodoList.splice(index, 1, {
-        id: id,
-        todo: todo,
+        id,
+        todo,
         isChecked: isChecked,
       });
       setTodoList(newTodoList);
